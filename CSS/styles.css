@@ -1,21 +1,29 @@
+@font-face {
+    font-family: "Orbitron";
+    src: url(../Fonts/Orbitron/Orbitron-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../Fonts/Ubuntu/Ubuntu-Regular.ttf) format(truetype);
+}
+
 .header-logo {
     max-width: 200px;
     padding: 20px;
 }
 
 
-
-/*
 h1,
 h2,
 h3,
 nav,
-.cta
+.cta {
+    font-family: "Orbitron", Verdana, Geneva, Tahoma, sans-serif;
+}
 
-Font Family: Orbitron
-*/
 
-/*
-p, 
-Font family: ubuntu
-*/
+p {
+    font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
+}
+
