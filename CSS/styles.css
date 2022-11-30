@@ -8,17 +8,28 @@
     src: url(../Fonts/Ubuntu/Ubuntu-Regular.ttf) format(truetype);
 }
 
-.header-logo {
-    max-width: 200px;
-    padding: 20px;
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+.header-logo {
+    max-width: 200px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
 
 h1,
 h2,
 h3,
 nav,
-.cta {
+.cta, 
+footer{
     font-family: "Orbitron", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -27,3 +38,10 @@ p {
     font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+header, 
+footer,
+a {
+    background: #001433;
+    color: #FFF;
+}
