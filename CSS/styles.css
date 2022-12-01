@@ -38,10 +38,70 @@ p {
     font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 header, 
 footer,
 a {
     background: #001433;
     color: #FFF;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+.cta {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/*
+@media {
+
+}
+*/
+
+/* Homepage */
+
+.home {
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+}
+
+.cta-explore {
+    background-color: #001433;
+}
+
+.cta-exhibitions {
+    background-color: #5F0099;
+}
+
+.cta-visit {
+    background-color: #EA0000;
+}
+
+.cta-getinvolved {
+    background-color: #36D100;
 }
