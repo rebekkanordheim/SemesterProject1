@@ -13,7 +13,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 20px;
+    padding: 20px;
 }
 
 .header-logo {
@@ -136,7 +136,15 @@ nav li {
 .home-news {
     display: flex;
     flex-direction: row;
-    grid-gap: 80px;
+    grid-gap: 30px;
     min-height: 400px;
     margin: 10px;
+}
+
+.explore-info {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    min-height: 400px;
+    margin: 50px auto;
 }
