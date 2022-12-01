@@ -82,12 +82,29 @@ nav li {
     align-items: center;
 }
 
+.home-info {
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.home-info img {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .cta-home {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    flex-wrap: wrap;
-    margin: auto;
     text-align: center;
+    display: flex;
+}
+
+.cta-home a {
+    margin:auto;
 }
 
 .cta-explore {
