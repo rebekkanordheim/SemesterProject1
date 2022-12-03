@@ -125,7 +125,9 @@ nav li {
 }
 
 .home-news,
-.explore-info {
+.explore-info,
+.exhibitions-info,
+.visit-info {
     display: flex;
     flex-direction: row;
     grid-gap: 30px;
@@ -134,8 +136,10 @@ nav li {
 }
 
 .home-news img,
-.explore-info img {
+.explore-info img,
+.visit-info img {
     width: 200px;
     height: 200px;
     object-fit: scale-down;
 }
+
