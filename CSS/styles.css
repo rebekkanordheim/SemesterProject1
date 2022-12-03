@@ -82,15 +82,6 @@ nav li {
 }
 
 
-/*
-@media {
-
-}
-*/
-
-/* Homepage */
-
-
 .home-info {
     max-width: 1000px;
     padding: 20px;
@@ -133,18 +124,18 @@ nav li {
     background-color: #36D100;
 }
 
-.home-news {
+.home-news,
+.explore-info {
     display: flex;
     flex-direction: row;
     grid-gap: 30px;
     min-height: 400px;
-    margin: 10px;
+    margin: 50px auto;
 }
 
-.explore-info {
-    display: flex;
-    flex-direction: row;
-    grid-gap: 20px;
-    min-height: 400px;
-    margin: 50px auto;
+.home-news img,
+.explore-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
 }
