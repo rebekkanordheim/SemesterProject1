@@ -127,13 +127,18 @@ nav li {
 .home-news,
 .explore-info,
 .exhibitions-info,
-.visit-info,
 .get-involved__info {
     display: flex;
     flex-direction: row;
     grid-gap: 30px;
     min-height: 400px;
-    margin: 50px auto;
+    margin: 50px;
+}
+
+.visit-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid: 20px;
 }
 
 .home-news img,
@@ -144,3 +149,4 @@ nav li {
     height: 200px;
     object-fit: scale-down;
 }
+
