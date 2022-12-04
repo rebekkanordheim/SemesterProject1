@@ -127,26 +127,39 @@ nav li {
 .home-news,
 .explore-info,
 .exhibitions-info,
-.get-involved__info {
+.get-involved__info,
+.visit-info {
     display: flex;
     flex-direction: row;
-    grid-gap: 30px;
-    min-height: 400px;
-    margin: 50px;
+    padding: 50px;
 }
 
-.visit-info {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid: 20px;
+.explore-info div,
+.exhibitions-info div,
+.visit-info div,
+.get-involved__info div {
+    flex: 1;
+
 }
 
 .home-news img,
 .explore-info img,
+.exhibitions-info img,
 .visit-info img,
-.get-involved__info img {
+.get-involved__info img,
+.visit-info img {
     width: 200px;
     height: 200px;
     object-fit: scale-down;
+    padding-top: 25px;
 }
 
+.home-info-image img,
+.explore-image img,
+.exhibitions-image img, 
+.visit-image img,
+.get-involved-image img {
+    width: 700px;
+    height: 150px;
+    object-fit: fill;
+}
