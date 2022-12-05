@@ -13,7 +13,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 5px;
     position: sticky;
     top: 0;
 }
@@ -128,11 +128,24 @@ nav li {
 .home-news,
 .explore-info,
 .exhibitions-info,
-.get-involved__info,
-.visit-info {
+.get-involved__info {
     display: flex;
     flex-direction: row;
     padding: 50px;
+}
+
+.visit-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+}
+
+.visit-info div {
+    padding: 30px;
+}
+
+.openinghours p {
+    word-spacing: 10px;
 }
 
 .explore-info div,
@@ -161,10 +174,9 @@ nav li {
 .get-involved-image img {
     width: 700px;
     height: 150px;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .visit-info div {
     align-items: flex-start;
-}
 }
