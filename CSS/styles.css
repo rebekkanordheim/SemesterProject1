@@ -14,6 +14,8 @@ header {
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
+    position: sticky;
+    top: 0;
 }
 
 .header-logo {
@@ -73,7 +75,6 @@ nav li {
 .exhibitions,
 .visit,
 .get-involved {
-    max-width: 1000px;
     padding: 20px;
     margin: 20px auto;
     display: flex;
@@ -139,7 +140,6 @@ nav li {
 .visit-info div,
 .get-involved__info div {
     flex: 1;
-
 }
 
 .home-news img,
@@ -162,4 +162,9 @@ nav li {
     width: 700px;
     height: 150px;
     object-fit: fill;
+}
+
+.visit-info div {
+    align-items: flex-start;
+}
 }
