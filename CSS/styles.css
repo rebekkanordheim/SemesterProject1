@@ -1,12 +1,13 @@
+
 @font-face {
     font-family: "Orbitron";
     src: url(../Fonts/Orbitron/Orbitron-Regular.ttf) format(truetype);
 }
-
 @font-face {
     font-family: "Ubuntu";
     src: url(../Fonts/Ubuntu/Ubuntu-Regular.ttf) format(truetype);
 }
+
 
 
 header {
@@ -56,9 +57,25 @@ a {
     color: #FFF;
 }
 
+nav {
+    background: #001433;
+    display: none;
+    position: fixed;
+    right: 0px;
+    top: 60px;
+}
+
 nav li {
     display: inline-block;
-    padding: 20px 10px;
+    padding: 10px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked  ~ nav {
+    display: block;
 }
 
 .current {
@@ -122,7 +139,7 @@ nav li {
 }
 
 .cta-getinvolved {
-    background-color: #36D100;
+    background-color: #124600;
 }
 
 .home-news,
@@ -179,4 +196,19 @@ nav li {
 
 .visit-info div {
     align-items: flex-start;
+}
+
+@media (min-width: 800px) {
+    nav {
+        display: inline-block;
+        position: static;
+    }
+    nav li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    header label {
+        display: none;
+    }
 }
