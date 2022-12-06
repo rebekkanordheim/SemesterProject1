@@ -9,7 +9,6 @@
 }
 
 
-
 header {
     display: flex;
     align-items: center;
@@ -161,10 +160,6 @@ nav li {
     padding: 30px;
 }
 
-.openinghours p {
-    word-spacing: 10px;
-}
-
 .explore-info div,
 .exhibitions-info div,
 .visit-info div,
@@ -196,19 +191,4 @@ nav li {
 
 .visit-info div {
     align-items: flex-start;
-}
-
-@media (min-width: 800px) {
-    nav {
-        display: inline-block;
-        position: static;
-    }
-    nav li {
-        display: inline-block;
-        padding: 10px;
-    }
-
-    header label {
-        display: none;
-    }
 }
