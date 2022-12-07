@@ -8,7 +8,6 @@
     src: url(../Fonts/Ubuntu/Ubuntu-Regular.ttf) format(truetype);
 }
 
-
 header {
     display: flex;
     align-items: center;
@@ -39,7 +38,6 @@ body {
     margin: 0px;
 }
 
-
 p {
     font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -47,7 +45,6 @@ p {
 a {
     text-decoration: none;
 }
-
 
 header, 
 footer,
@@ -99,7 +96,8 @@ nav li {
 }
 
 
-.home-info {
+.home-info,
+.explore-info {
     max-width: 1000px;
     padding: 20px;
     margin: 20px;
@@ -152,7 +150,7 @@ nav li {
 
 .visit-info {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 30px;
 }
 

@@ -4,9 +4,10 @@
     }
 }
 
-@media (min-width: 600px) {
+
+@media (max-width: 600px) {
     .visit-info {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -24,6 +25,7 @@
         display: none;
     }
 }
+
 @media (max-width: 1050px) {
     .home-news,
     .explore-info,
