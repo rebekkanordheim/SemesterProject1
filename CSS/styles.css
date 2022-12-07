@@ -96,8 +96,7 @@ nav li {
 }
 
 
-.home-info,
-.explore-info {
+.home-info{
     max-width: 1000px;
     padding: 20px;
     margin: 20px;
@@ -178,7 +177,7 @@ nav li {
 }
 
 .home-info-image img,
-.explore-image img,
+.explore-info-image img,
 .exhibitions-image img, 
 .visit-image img,
 .get-involved-image img {
@@ -186,6 +185,7 @@ nav li {
     height: 150px;
     object-fit: cover;
 }
+
 
 .visit-info div {
     align-items: flex-start;
