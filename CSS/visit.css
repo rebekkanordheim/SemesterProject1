@@ -1,0 +1,15 @@
+/* Visit info page */
+
+.visit-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+}
+
+.visit-info div {
+    padding: 30px;
+}
+
+.visit-info div {
+    align-items: flex-start;
+}
