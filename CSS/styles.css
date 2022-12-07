@@ -164,6 +164,18 @@ nav li {
     flex: 1;
 }
 
+/* Cover images */
+.home-info-image img,
+.explore-image img,
+.exhibitions-image img, 
+.visit-image img,
+.get-involved-image img {
+    width: 700px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Small pictures*/
 .home-news img,
 .explore-info img,
 .exhibitions-info img,
@@ -174,16 +186,6 @@ nav li {
     height: 200px;
     object-fit: scale-down;
     padding-top: 25px;
-}
-
-.home-info-image img,
-.explore-info-image img,
-.exhibitions-image img, 
-.visit-image img,
-.get-involved-image img {
-    width: 700px;
-    height: 150px;
-    object-fit: cover;
 }
 
 
