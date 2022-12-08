@@ -4,7 +4,6 @@
     }
 }
 
-
 @media (max-width: 600px) {
     .visit-info {
         grid-template-columns: 1fr;
