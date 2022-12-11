@@ -3,7 +3,7 @@
 .visit-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 30px;
+    margin: 30px 100px;
 }
 
 .visit-info div {

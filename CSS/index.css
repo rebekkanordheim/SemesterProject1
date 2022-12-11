@@ -15,10 +15,11 @@
 
 .cta-home a {
     margin: auto;
+    text-transform: uppercase;
 }
 
 .cta-explore {
-    background-color: #001433;
+    background-color: var(--color-header-footer);
 }
 
 .cta-exhibitions {
@@ -26,7 +27,7 @@
 }
 
 .cta-visit {
-    background-color: #EA0000;
+    background-color: #A20000;
 }
 
 .cta-getinvolved {

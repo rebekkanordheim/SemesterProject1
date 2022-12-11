@@ -1,4 +1,6 @@
 /* Global styles */
+
+@import url(imports/variables.css);
 @font-face {
     font-family: "Orbitron";
     src: url(../Fonts/Orbitron/Orbitron-Regular.ttf) format(truetype);
@@ -32,7 +34,7 @@ h3,
 nav,
 .cta, 
 footer{
-    font-family: "Orbitron", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--text-header-cta-nav-footer), Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -40,7 +42,7 @@ body {
 }
 
 p {
-    font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--text-p), Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -50,12 +52,12 @@ a {
 header, 
 footer,
 a {
-    background: #001433;
-    color: #FFF;
+    background: var(--color-header-footer);
+    color: var(--text-color);
 }
 
 nav {
-    background: #001433;
+    background: var(--color-header-footer);
     display: none;
     position: fixed;
     right: 0px;
