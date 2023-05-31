@@ -4,8 +4,6 @@
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-
 The project for the Community Science Museum was my second project as a front end development student, and also my biggest project so far. The brief for the Community Science Museum was that they were to open a science museum nearby, and wanted to catch the interest of younger people with their design of the website. 
 
 My thoughts on the design are that I wanted to keep the design clean and interesting, which I really got to work by creating the cool logo, and keeping the different sites on the website interesting with its colors, images and general design. 
