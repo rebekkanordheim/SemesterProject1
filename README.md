@@ -6,22 +6,17 @@
 
 Add a more detailed description of what your project entails and set out to do.
 
-This project was my first year exam as a Front End Development student at Noroff. The case for this exam was to make a website for RainyDays, which is a brand that wants to sell jackets so that their customers could keep pushing their comfor zones. It is a simple website where you can have a look at the product from Rainy Days and reed about them.
+The project for the Community Science Museum was my second project as a front end development student, and also my biggest project so far. The brief for the Community Science Museum was that they were to open a science museum nearby, and wanted to catch the interest of younger people with their design of the website. 
 
-The site is build up with a homepage who has a list of specifications of the jackets RainyDays sell, and CTA buttons under this list to make it easy for every user to get to either the "jackets" page or the "about us" page.
-The jacket page show the "Snowy Jacket" and its price, and has as call-to-action button to get to the page with the product details.
-The page also has a "about" page where the user can read about the idea behind Rainy Days and a greeting from the Rainy Days team.
+My thoughts on the design are that I wanted to keep the design clean and interesting, which I really got to work by creating the cool logo, and keeping the different sites on the website interesting with its colors, images and general design. 
 
-This project is done in the first semester with very basic and simple HTML and CSS, and I also made some wireframes/designs in Figma before the coding. It was a very exciting task to do because I never had done anything that has to do with coding previously, so it was really exciting.
-
-It's worth commenting that there is some JavaScript on this page, which is calling an API to render and show a list of products through a LOCAL page. This part of the code is not in use at the moment and therefore commented out.
+Here I am still kind of new into coding, but I am expanding my knowledge within HTML and CSS, and am exploring when it comes to the design process in Figma. Now I am really starting to understand responsiveness, WCAG guidelines, clean design and so on, which is very fun!
 
 ## Built With
 
 - Figma (for design)
 - HTML
 - CSS
-- JavaScript (very simple)
 
 ## Getting Started
 
@@ -31,7 +26,7 @@ This is where you list how to get the project started. It typically just include
 
 Clone the repo:
 
-" https://github.com/rebekkanordheim/2022-11-08_Course_Assignment_HMTL_CSS_RebekkaNordheim "
+" https://github.com/rebekkanordheim/SemesterProject1 "
 
 ### Running
 
