@@ -1,6 +1,6 @@
 # Community Science Museum - Semester Project 1
 
-![image](images/Skjermbilde%202023-05-31%20kl.%2022.16.04.png)
+![image](Images/Skjermbilde%202023-05-31%20kl.%2022.16.04.png)
 
 ## Description
 
